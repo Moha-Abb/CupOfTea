@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(153, 192, 192);
+}
+
+.container {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.principal {
+    flex-direction: column;
+    border: 1px solid red;
+
+}
+
+.display-none {
+    display: none;
+}
+
+#container-tacita {
+    width: 50%;
+}
+
+#container-tacita>video {
+    width: 100%;
+}
+
+#container-botones-tacita{
+    display: inline-block;
+}
+.boton{
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+margin: 10px 40px;}
+
+.boton:hover {
+    background-color: #3e8e41
+}
+
+.boton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
